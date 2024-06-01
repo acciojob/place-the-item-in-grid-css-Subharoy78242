@@ -1,2 +1,17 @@
+.holder {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0; /* Optional: remove spacing between items if desired */
+}
 
+/* Ensure the grid items take up the space within the grid container */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000; /* Optional: add borders for better visibility */
+}
 /* Your CSS Code here. */
